@@ -7,6 +7,7 @@ import kotlinx.coroutines.flow.MutableStateFlow
 internal class GetItemListUseCase(
     private val repository: ItemListRepository,
 ) {
+
     operator fun invoke(): MutableStateFlow<ArrayList<Item>> =
         repository.getFlow()
 }

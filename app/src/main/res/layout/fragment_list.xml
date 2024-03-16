@@ -3,24 +3,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".presentation.ui.mainScreen.fragments.ItemListFragment">
+    tools:context=".presentation.ui.mainScreen.fragments.list.ItemListFragment">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:layout_gravity="center_horizontal|center_vertical"
-    android:textSize="124sp"
-    android:id="@+id/text"
-    />
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/add_product_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-        android:text="Добавить продукт" />
+        android:text="@string/add_product_button" />
 
     <ListView
         android:id="@+id/list_view"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent" />
+
 </FrameLayout>

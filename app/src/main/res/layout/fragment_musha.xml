@@ -13,9 +13,10 @@
         tools:src="@drawable/photo_2024_03_09_12_52_45" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/back_button"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|center"
-        android:text="Назад" />
+        android:text="@string/back_button" />
+
 </FrameLayout>
