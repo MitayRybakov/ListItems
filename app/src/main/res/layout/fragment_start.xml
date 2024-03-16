@@ -7,17 +7,17 @@
 
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/openCartButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|end"
-        android:text="Список товаров" />
+        android:text="@string/cart_list_button" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/openMishaButton"
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:layout_gravity="bottom|start"
-        android:text="Мышабура" />
+        android:text="@string/misha_button" />
 
 </FrameLayout>
