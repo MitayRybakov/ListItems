@@ -12,7 +12,7 @@ class MainActivity : FragmentActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.main_activity)
 
-        if (savedInstanceState == null) {
+       if (savedInstanceState == null) {
             openFragment(StartFragment())
         }
     }

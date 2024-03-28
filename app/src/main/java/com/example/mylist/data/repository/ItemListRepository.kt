@@ -25,4 +25,7 @@ class ItemListRepository {
             Item("Fourth", "400"),
             Item("Fifth", "500"),
         )
+    fun addItem(item: Item){
+        itemListFlow.value.add(item)
+    }
 }

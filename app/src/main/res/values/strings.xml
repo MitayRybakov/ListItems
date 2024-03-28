@@ -6,6 +6,7 @@
     <string name="add_product_button">Добавить продукт</string>
     <string name="cart_list_button">Список товаров</string>
     <string name="misha_button">Мышабура</string>
+    <string name="Cat">Мышабуравень</string>
     <string name="cancelButton">Отмена</string>
     <string name="save_button">Сохранить</string>
     <string name="enter_product_name">Ведите имя продукта</string>

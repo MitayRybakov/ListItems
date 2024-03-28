@@ -1,6 +1,7 @@
 package com.example.mylist
 
 import android.app.Application
+import android.util.Log
 import com.example.mylist.data.repository.ItemListRepository
 
 class MyListAPP : Application() {
@@ -9,16 +10,12 @@ class MyListAPP : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
-        _instance = this
+        instance = this
         repository = ItemListRepository()
     }
 
     companion object {
-
-        private lateinit var _instance: MyListAPP
-
-        val instance: MyListAPP
-            get() = _instance
+         lateinit var instance: MyListAPP
+             private set
     }
 }
